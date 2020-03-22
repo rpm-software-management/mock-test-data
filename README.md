@@ -15,3 +15,7 @@ dynamic build requires.  Can be built on Fedora 31+.
 
 `dep-on-python-copr-999-1-0.src.rpm` depends both build/run-time on the
 python-copr package above.
+
+`daemon-test-1-0.src.rpm` package starts `test-daemon` process on background
+during build, and in %posttrans.  The process shuts down after 5 minutes itself,
+if not killed.
