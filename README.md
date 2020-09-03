@@ -20,6 +20,11 @@ python-copr package above.
 during build, and in %posttrans.  The process shuts down after 5 minutes itself,
 if not killed.
 
+`mock-test-bump-version*.src.rpm` packages are here to simplify tests where we
+expect a package bump in buildroot.  We build the version 1 into some repo,
+experiment with mock, then we build the version 2 into the same repo, and we can
+experiment once more.
+
 `repo` is DNF/YUM repository providing testing package named
 `always-installable`, and is available on "baseurl"
 https://raw.githubusercontent.com/rpm-software-management/mock-test-data/master/repo/
