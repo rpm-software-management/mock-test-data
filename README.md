@@ -29,5 +29,5 @@ experiment once more.
 `always-installable`, and is available on "baseurl"
 https://raw.githubusercontent.com/rpm-software-management/mock-test-data/master/repo/
 
-`buildrequires-always-installable-1-1.src.rpm` is package which buildrequires
+`buildrequires-always-installable-1-0.src.rpm` is package which buildrequires
 the `always-installable` RPM from the `repo` directory.
