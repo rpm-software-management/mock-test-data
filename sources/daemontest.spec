@@ -21,6 +21,9 @@ BuildRequires:	python3-daemon
 BuildRequires:	python3-setproctitle
 %endif
 
+Requires:	/bin/ps
+BuildRequires:	/bin/ps
+
 
 BuildArch:	noarch
 
